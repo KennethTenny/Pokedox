@@ -1,0 +1,54 @@
+  @import http://fonts.googleapis.com/css?family=Raleway;
+
+  #main {
+  width:960px;
+  margin:50px auto;
+  font-family:raleway
+  }
+  
+
+  th { border: 1px solid #000000; }  
+
+  body {
+      background-color: white;
+  }
+
+  @import url('http://getbootstrap.com/dist/css/bootstrap.css');
+   html, body, .container-table {
+      height: 100%;
+  }
+  .container-table {
+      display: table;
+  }
+  .vertical-center-row {
+      display: table-cell;
+      vertical-align: middle;
+  }
+
+
+  h1{
+    font-weight: lighter;
+    margin-left: 100px;
+    margin-top: -70px;
+  }
+
+
+
+  th, td {
+      text-align: left;
+      padding: 8px;
+      border:2px solid #1E90FF;
+      white-space: nowrap;
+      overflow: hidden;
+      
+
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+  tr:nth-child(odd){background-color: #DCDCDC}
+  th
+  {background-color: #C0C0C0}
+  #tablediv tr:hover {
+    background-color: lightyellow;
+  }
+
